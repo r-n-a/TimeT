@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/f_name" />
+
+    <TextView
+        android:id="@+id/emp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/date" />
+
+   <EditText
+        android:id="@+id/nowDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:onClick="clickDate" >
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+            <TextView
+		        android:id="@+id/textView4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="10dp"
+		        android:text="@string/time_arr" />
+
+    		<EditText
+		        android:id="@+id/timeArr"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:ems="10"
+		        android:onClick="clickTimeArr" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+    		
+            <TextView
+		        android:id="@+id/textView5"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="10dp"
+		        android:text="@string/time_dep" />
+
+	    	<EditText
+		        android:id="@+id/timeDep"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:ems="10"
+		        android:onClick="clickTimeDep" />
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        
+        
+        <Button
+            android:id="@+id/addTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="addEmTime"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="onCancel"
+            android:text="@string/cancel" />
+        
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:onClick="onList"
+            android:text="@string/list_of_emp" />
+        
+    </LinearLayout>
+
+</LinearLayout>

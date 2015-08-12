@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Учет времени</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_view_em">Учет времени</string>
+    <string name="title_activity_emp">Учет времени</string>
+    <string name="add_emp">Добавить работника</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="title_activity_add">Учет времени</string>
+    <string name="title_activity_add_em">Учет времени</string>
+    <string name="title_activity_list_time">Учет времени</string>
+    <string name="add_manager">Добавить менеджера</string>
+    <string name="select_manager">Выбор менеджера</string>
+    <string name="add">Ок</string>
+    <string name="select">Выбрать</string>
+    <string name="f_name">Фамилия и имя</string>
+    <string name="position">Должность</string>
+    <string name="cancel">Отмена</string>
+    <string name="date">Дата</string>
+    <string name="time_arr">Время прихода</string>
+    <string name="time_dep">Время ухода</string>
+    <string name="list_of_emp">Список работников</string>
+
+</resources>
